@@ -1,0 +1,77 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{titling}
+\usepackage{atbegshi}% http://ctan.org/pkg/atbegshi
+\AtBeginDocument{\AtBeginShipoutNext{\AtBeginShipoutDiscard}}
+\usepackage{hyperref}
+\usepackage{nopageno}
+\thispagestyle{empty}
+
+\title{Yoshiki Takashima}
+\author{\href{ytakashi@andrew.cmu.edu}{ytakashi@andrew.cmu.edu}}
+\date{4720 Forbes Ave, Room \textbf{CIC-2119C}. Pittsburgh PA 15213}
+
+\begin{document}
+\maketitle
+
+\begin{rSection}{Research Interest}
+I am interested in building automated, language-driven solutions to a diverse set of security challenges ranging from unsafe Rust libraries and cross-site scripting to hardware side-channels.
+\end{rSection}
+
+
+\begin{rSection}{Education}
+\begin{rSubsection}{Carnegie Mellon University}{$2019 \rightarrow$ Present}{PhD Student in Electrical and Computer Engineering}{Pittsburgh, PA}
+    \item Co-Advised by: Prof. Limin Jia and Prof. Corina Pasareanu.
+    \item QPA 3.92/4.00
+\end{rSubsection}
+
+\begin{rSubsection}{UC San Diego}{$2017 \rightarrow 2019$}{\href{https://www.math.ucsd.edu/~handbook/undergraduate/ma30-math-computer-science-b-s/}{BS Mathematics - Comp. Sci.}}{La Jolla, CA}
+    \item GPA: $3.95/4.00$
+\end{rSubsection}
+
+\begin{rSubsection}{Santa Monica College}{$2015 \rightarrow 2017$}{IGETC Transfer Certificate}{Santa Monica, CA}
+    \item GPA: $3.86/4.00$
+    \item High school concurrent enrollment.
+\end{rSubsection}
+
+\begin{rSubsection}{West Los Angeles College}{$2014$}{Credits Transferred}{Los Angeles, CA}
+    \item GPA: $4.00/4.00$
+    \item Concurrent enrollment.
+\end{rSubsection}
+\end{rSection}
+
+\begin{rSection}{Current Projects}
+\begin{rSubsection}{Synthesis-Driven Testing of Rust APIs}{$2019 \rightarrow 2020$}{}{}
+    \item Designed a program synthesis framework to assemble semantically valid Rust programs from API data.
+    \item Leverage program synthesis to exhaustively probe Rust library APIs for bugs.
+\end{rSubsection}
+\begin{rSubsection}{Robust Detection of Reflected Cross-Site Scripting}{$2019 \rightarrow 2020$}{}{}
+    \item Built a suite of tools for Reflected XSS detection, leveraging a modified browser, user interface fuzzing, and search engine mining for better coverage and improved vulnerability detection.
+\end{rSubsection}
+\end{rSection}
+
+\newpage
+\begin{rSection}{Publications}
+\begin{rSubsection}{}{$2019$}{}{}
+    \item \textbf{VeriSketch: Synthesizing Secure Hardware Designs with Timing-Sensitive Information Flow Properties}. 
+    
+    Armaiti Ardeshiricham, Yoshiki Takashima (\textbf{presenter}), Sicun Gao, Ryan Kastner. In Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security \textit{(CCS '19)}.
+    \begin{itemize}
+        \item Paper and video available here: \href{https://dl.acm.org/doi/abs/10.1145/3319535.3354246}{https://dl.acm.org/doi/abs/10.1145/3319535.3354246}
+    \end{itemize}
+\end{rSubsection}
+\end{rSection}
+
+\begin{rSection}{Personal Projects}
+\begin{rSubsection}{Co-Opting Optimization Techniques for Finding Provable Global Minimum}{$2019$}{}{}
+    \item GitHub Link: \href{https://github.com/YoshikiTakashima/dreal-cmake-example-project}{https://github.com/YoshikiTakashima/dreal-cmake-example-project}
+\end{rSubsection}
+\begin{rSubsection}{Recognition of Hand-Written Automata Diagrams with Machine Learning}{$2018$}{}{}
+    \item GitHub Link: \href{https://github.com/YoshikiTakashima/GradeRegular}{https://github.com/YoshikiTakashima/GradeRegular}
+
+\end{rSubsection}
+\end{rSection}
+\end{document}
