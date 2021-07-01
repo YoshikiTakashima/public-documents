@@ -1,3 +1,9 @@
+### .gitignore --- files to be ignored by git
+
+### My custom ignores
+build/*
+
+### Ocaml gitignore
 *.annot
 *.cmo
 *.cma
