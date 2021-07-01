@@ -11,16 +11,16 @@ DOC=main
 run: $(DOC).pdf
 
 $(DOC).pdf: $(DOC).bbl $(DOC).tex
-	pdflatex $(SHELL_ESC) $(DOC).tex
+	/usr/local/texlive/2021/bin/x86_64-linux/pdflatex $(SHELL_ESC) $(DOC).tex
 	sleep 1 # sleep to allow the sync script to recover
-	pdflatex $(SHELL_ESC) $(DOC).tex
+	/usr/local/texlive/2021/bin/x86_64-linux/pdflatex $(SHELL_ESC) $(DOC).tex
 
 $(DOC).bbl: $(DOC).aux
 	-bibtex $(DOC).aux
 
 $(DOC).aux:
-	pdflatex $(SHELL_ESC) $(DOC).tex
-	pdflatex $(SHELL_ESC) $(DOC).tex
+	/usr/local/texlive/2021/bin/x86_64-linux/pdflatex $(SHELL_ESC) $(DOC).tex
+	/usr/local/texlive/2021/bin/x86_64-linux/pdflatex $(SHELL_ESC) $(DOC).tex
 	rm $(DOC).pdf
 
 clean:
