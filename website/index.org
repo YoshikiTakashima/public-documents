@@ -1,0 +1,79 @@
+#+title: Yoshiki Takashima
+#+Author: Yoshiki Takashima
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/imagine.css" />
+#+HTML_HEAD_EXTRA: <style> .figure p {text-align: center;}</style>
+#+OPTIONS: toc:nil num:nil html-style:nil
+
+#+ATTR_HTML: :alt Picture of me (Yoshiki Takashima).
+#+ATTR_HTML: :text-align center
+[[./img/profile.jpeg]]
+
+* Hi!
+  I am a PhD Student in Electrical and Computer Engineering (ECE) at
+  Carnegie Mellon University. My co-advisers are Prof. [[http://www.andrew.cmu.edu/user/liminjia/][Limin Jia]] and
+  Prof. [[https://ti.arc.nasa.gov/profile/pcorina/][Corina Pasareanu]].
+
+  My research aims to help developers build more robust software by
+  leveraging automated, language-aware solutions for testing and
+  verification. Current work includes automatic testing of libraries
+  written in Rust.
+
+  /Contacts:/
+  - Email: ytakashi@andrew.cmu.edu
+  - Office: 4720 Forbes Ave, Room CIC-2119C. Pittsburgh PA 15213
+  - [[https://users.ece.cmu.edu/~ytakashi/resume/yoshiki-takashima-resume-summer-2021.pdf][Full Resume]]
+  - You can also find me on: [[https://github.com/YoshikiTakashima][Github]] and [[https://www.linkedin.com/in/yoshiki-takashima-480726146][LinkedIn]].
+
+* Education
+  - *PhD Student in Electrical and Computer Engineering* ~ Carnegie
+    Mellon University: (2019 onwards)
+    - Co-Advised by: Prof. [[http://www.andrew.cmu.edu/user/liminjia/][Limin Jia]] and Prof. [[https://ti.arc.nasa.gov/profile/pcorina/][Corina Pasareanu]].
+
+  - *BS Mathematics - Computer Science* ~ UC San Diego (2017 - 2019)
+    - GPA: 3.95/4.00
+    - /Note/: This is a (non-double) math major. A more precise description
+      might be "Applied Mathematics, Application: Computer Science."
+
+  - *IGETC Transfer Certificate* ~ Santa Monica College (2015 - 2017)
+    - GPA: 3.85/4.00
+
+* Publications
+  - *SyRust: Automatic Testing of Rust Libraries with Semantic-Aware
+    Program Synthesis.* Yoshiki Takashima, Ruben Martins, Limin Jia,
+    and Corina S. Păsăreanu. In Proceedings of the 42nd ACM SIGPLAN
+    International Conference on Programming Language Design and
+    Implementation /(PLDI’21)/.
+    - Paper, video, and artifact available here:
+      https://doi.org/10.1145/3453483.3454084
+    - Japanese Talk: Coming in September 2021
+
+  - *VeriSketch: Synthesizing Secure Hardware Designs with
+    Timing-Sensitive Information Flow Properties.* Armaiti
+    Ardeshiricham, Yoshiki Takashima (presenter), Sicun Gao, Ryan
+    Kastner. In Proceedings of the 2019 ACM SIGSAC Conference on
+    Computer and Communications Security /(CCS’19)/.
+    - Paper and video available here:
+      https://doi.org/10.1145/3319535.3354246
+
+* Teaching and Service
+
+** 2021
+*** Teaching Assistant for "Software Security" (18732)
+    - /Professor: Bryan Parno, Spring Semester 2021/
+    - This graduate-level ECE course teaches students strategies for
+      developing secure software, ranging from static analysis to
+      formal verification using Dafny.
+    - Maintained infrastructure, conducted office hours and
+      recitations.
+** 2020
+*** Artifact Evaluation for VMCAI 2021
+    - /Artifact Evaluation Chairs: Troels Henriksen and Klaus
+      Gleissenthall, October 2020/
+    - Evaluated 4 artifacts for the VMCAI (Verification, Model
+      Checking, and Abstract Interpretation) 2021.
+
+* Credits and License
+  This webpage was based off of Jesse Kelly's Imagine Template,
+  licensed under GPL v3.
+  - Original Files from: https://github.com/jessekelly881/Imagine
+  - My Source Code: https://github.com/YoshikiTakashima/public-documents/website/
