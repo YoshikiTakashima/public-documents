@@ -16,7 +16,7 @@ grep '^# Note: build me with `latex-build.sh`$' $TARGET_DIR/Makefile 2> /dev/nul
 if [ "$?" -eq 0  ]; then # This directory is intended
     echo "Looks good! Using $TARGET_DIR"
     mkdir -p $BUILD_DIR
-    rsync -avz $TARGET_DIR/* $BUILD_DIR
+    cp -r $TARGET_DIR/* $BUILD_DIR
     touch $BUILD_DIR/Makefile
     make -C $BUILD_DIR
 else
