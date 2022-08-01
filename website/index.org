@@ -56,6 +56,11 @@
       https://doi.org/10.1145/3319535.3354246
 
 * Teaching and Service
+** 2021
+*** Student Volunteer for ICSE 2022
+    - /Student Volunteer Chairs/: Michael Hinton and Laura Moreno
+    - /Conference Chair/: Christian Kästner
+    - Staffed workshops and front desk.
 
 ** 2021
 *** Teaching Assistant for "Software Security" (18732)
@@ -71,7 +76,8 @@
       Gleissenthall, October 2020/
     - Evaluated 4 artifacts for the VMCAI (Verification, Model
       Checking, and Abstract Interpretation) 2021.
-
+* Fellowships and Funding
+  - /Prabhu and Poonam Goel Graduate Fellowship/: 2021 - 2022
 * Credits and License
   This webpage was based off of Jesse Kelly's Imagine Template,
   licensed under GPL v3.
