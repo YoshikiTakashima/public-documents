@@ -1,29 +1,19 @@
-# Makefile --- Makefile for PLDI2021 Summary
-#
-# Note: build me with `latex-build.sh`
+# Makefile -- top-level makefile of the paper. Uses latexmk as sub-command
 
-SHELL_ESC=-halt-on-error -shell-escape
-DOC=main
+LATEXMKFLAGS = -shell-escape -pdf -xelatex -interaction=nonstopmode
+MAINFILE = main.tex
 
-.SUFFIXES: .bib .pdf .tex
-.PHONY:
+.PHONY: main clean check-and-compile-loop-forever FORCE
 
-run: $(DOC).pdf
+main: build
+	open main.pdf
+build:
+	latexmk $(LATEXMKFLAGS) $(MAINFILE)
 
-$(DOC).pdf: $(DOC).bbl $(DOC).tex
-	/usr/local/texlive/2021/bin/x86_64-linux/pdflatex $(SHELL_ESC) $(DOC).tex
-	sleep 1 # sleep to allow the sync script to recover
-	/usr/local/texlive/2021/bin/x86_64-linux/pdflatex $(SHELL_ESC) $(DOC).tex
-
-$(DOC).bbl: $(DOC).aux
-	-bibtex $(DOC).aux
-
-$(DOC).aux:
-	/usr/local/texlive/2021/bin/x86_64-linux/pdflatex $(SHELL_ESC) $(DOC).tex
-	/usr/local/texlive/2021/bin/x86_64-linux/pdflatex $(SHELL_ESC) $(DOC).tex
-	rm $(DOC).pdf
+# This command runs the latexmk command in the "check-and-compile"
+# loop (-pvs). This command will never terminate.
+check-and-compile-loop-forever:
+	latexmk -pvs $(LATEXMKFLAGS) $(MAINFILE)
 
 clean:
-	-rm -rf *.aux *.lof *.log *.lot *.toc *.bbl *.blg *pdf *out *.ps *.dvi
-	-rm -rf ./res/build
-	-rm -rf ./_minted-*
+	latexmk -C $(LATEXMKFLAGS) $(MAINFILE)
