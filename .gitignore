@@ -1,5 +1,7 @@
 ### .gitignore --- files to be ignored by git
 
+.DS_Store
+
 ### My custom ignores
 build/*
 
