@@ -11,7 +11,7 @@
 % http://ctan.org/pkg/atbegshi
 \AtBeginDocument{\AtBeginShipoutNext{\AtBeginShipoutDiscard}}
 
-% \sloppy
+\setlength{\droptitle}{-0.6in}   % reduce space before title
 
 \title{\bf Yoshiki Takashima}
 \author{\href{ytakashi@andrew.cmu.edu}{ytakashi@andrew.cmu.edu}}
@@ -104,9 +104,9 @@
 
   \begin{rSubsection}{Applied Scientist Intern (Automated Reasoning),
       Amazon Web Services}{Summer $2023$} {}{}
-  \item Developed an universal Rust translator with formal guarantees
-    of equivalence between the original program and the LLM-translated
-    Rust program.
+  \item Developed an universal Rust translator that leverages
+    model-checking to establish formal guarantees of equivalence
+    between the original program and the LLM-translated Rust program.
   \end{rSubsection}
 
   \begin{rSubsection}{Applied Scientist Intern (Automated Reasoning),
@@ -125,19 +125,21 @@
   \item Written with advisors Limin Jia and Corina P\u{a}s\u{a}reanu.
   \end{rSubsection}
 
-  \begin{rSubsection}{Prabhu and Poonam Goel Graduate Fellowship}{$2021 - 2022$}{}{}
-    \item Awarded by Electrical and Computer Engineering Department.
+  \begin{rSubsection}{CMU ECE Prabhu and Poonam Goel Graduate
+      Fellowship}{$2021 - 2022$}{}{}
+  \item Internal fellowship awarded by the CMU Electrical and Computer
+    Engineering Department.
   \end{rSubsection}
 \end{rSection}
 
 
 \begin{rSection}{Teaching and Service}
-  \begin{rSubsection}{Teaching Assistant for 18-636 (Web
+  \begin{rSubsection}{Teaching Assistant for CMU 18-636 (Web
       Security)}{Fall $2023$}{Professor: Limin Jia}{}
   \item Topics: Cross-Site Scripting, Request Forgery, browser policy.
   \end{rSubsection}
 
-  \begin{rSubsection}{Teaching Assistant for 18-732 (Software
+  \begin{rSubsection}{Teaching Assistant for CMU 18-732 (Software
       Security)}{Spring $2021$}{Professor: Bryan Parno}{}
   \item Topics: Control-Flow Integrity, Software Fault Isolation,
     Fuzzing, Model-Checking, Formal Verification.
@@ -156,4 +158,12 @@
   \end{rSubsection}
 \end{rSection}
 
+\begin{rSection}{Skills}
+  \begin{rSubsection}{}{}{}{}
+  \item Programming Language: Rust, SQL, Python, Java, C, C++, Scala, R, OCaml.
+  \item Operating System: Linux, Mac.
+  \item Document Writing: LaTeX, Microsoft Word, HTML.
+  \item Human Language: Fluent in English and Japanese.
+  \end{rSubsection}
+\end{rSection}
 \end{document}
