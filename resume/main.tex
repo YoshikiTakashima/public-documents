@@ -1,7 +1,7 @@
 \documentclass{resume} % Use the custom resume.cls style
 % Document margins
 \usepackage[utf8]{inputenc}
-\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
+\usepackage[left=0.6in,top=0.6in,right=0.6in,bottom=0.6in]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage{titling}
 \usepackage{atbegshi}
@@ -32,7 +32,7 @@
       Present}{PhD Student in Electrical and Computer
       Engineering}{Pittsburgh, PA}
   \item Co-Advised by: Prof. Limin Jia and Prof. Corina P\u{a}s\u{a}reanu.
-  % \item QPA 3.62/4.00
+  \item Proposed Thesis: \textit{Testing and Verifying Rust's Next Mile}. Expected Apr. 2024.
   \end{rSubsection}
 
   \begin{rSubsection}{UC San Diego}{$2017 -
@@ -59,43 +59,44 @@
 \begin{rSection}{Publications}
 
   \begin{rSubsection}{}{}{}{}
+  \item \textbf{Automatically Enforcing Rust Trait Properties}. Twain
+    Byrnes, Yoshiki Takashima, Limin Jia. International Conference on
+    Verification, Model Checking, and Abstract Interpretation 2024
+    \textbf{(VMCAI’24)}.
+
   \item \textbf{PropProof: Free Model-Checking Harnesses from PBT}.
     Yoshiki Takashima. ACM Joint European Software Engineering
     Conference and Symposium on the Foundations of Software
-    Engineering 2023 \textit{(ESEC/FSE’23 Industry Track)}.
-
-    {\footnotesize Code: \href{https://github.com/YoshikiTakashima/propproof}
-    {https://github.com/YoshikiTakashima/propproof}}
+    Engineering 2023 \textbf{(ESEC/FSE’23 Industry Track)}.
+    {\footnotesize \href{https://github.com/YoshikiTakashima/propproof}
+      {https://github.com/YoshikiTakashima/propproof}}
 
   \item \textbf{Mariposa: Measuring SMT Instability in Automated
       Program Verification}. Yi Zhou, Jay Bosamiya, Yoshiki Takashima,
     Jessica Li, Marijn Heule, Bryan Parno. Formal Methods in
-    Computer-Aided Design 2023 \textit{(FMCAD'23)}
-
-    {\footnotesize Code: \href{https://github.com/secure-foundations/mariposa}
-    {https://github.com/secure-foundations/mariposa}}
+    Computer-Aided Design 2023 \textbf{(FMCAD'23)}
+    {\footnotesize \href{https://github.com/secure-foundations/mariposa}
+      {https://github.com/secure-foundations/mariposa}}
 
   \item \textbf{SyRust: Automatic Testing of Rust Libraries
-    with Semantic-Aware Program Synthesis}.
+      with Semantic-Aware Program Synthesis}.
     Yoshiki Takashima, Ruben Martins, Limin Jia, and Corina
-    S. P\u{a}s\u{a}reanu.  In Proceedings of the 42nd
+    S. P\u{a}s\u{a}reanu. In Proceedings of the 42nd
     ACM SIGPLAN International Conference on Programming Language
-    Design and Implementation \textit{(PLDI’21)}.
+    Design and Implementation \textbf{(PLDI’21)}.
 
     {\footnotesize Paper and video available here:
-    \href{https://doi.org/10.1145/3453483.3454084}
-    {https://doi.org/10.1145/3453483.3454084}. Discovered bugs lead to
-    \href{https://nvd.nist.gov/vuln/detail/CVE-2020-15254}{CVE-2020-15254}}
+      \href{https://doi.org/10.1145/3453483.3454084}
+      {https://doi.org/10.1145/3453483.3454084}. Discovered bugs lead to
+      \href{https://nvd.nist.gov/vuln/detail/CVE-2020-15254}{CVE-2020-15254}}
 
   \item \textbf{VeriSketch: Synthesizing Secure Hardware Designs with
-      Timing-Sensitive Information Flow Properties}.  Armaiti
-    Ardeshiricham, Yoshiki Takashima (\textbf{presenter}), Sicun Gao,
+      Timing-Sensitive Information Flow Properties}. Armaiti
+    Ardeshiricham, Yoshiki Takashima (\textit{presenter}), Sicun Gao,
     Ryan Kastner. In Proceedings of the 2019 ACM SIGSAC Conference on
-    Computer and Communications Security~\textit{(CCS'19)}.
-
-    {\footnotesize Paper and video available here:
-    \href{https://dl.acm.org/doi/abs/10.1145/3319535.3354246}
-    {https://doi.org/10.1145/3319535.3354246}}
+    Computer and Communications Security~\textbf{(CCS'19)}.
+    {\footnotesize \href{https://dl.acm.org/doi/abs/10.1145/3319535.3354246}
+      {https://doi.org/10.1145/3319535.3354246}}
   \end{rSubsection}
 \end{rSection}
 
@@ -103,23 +104,23 @@
 
   \begin{rSubsection}{Applied Scientist Intern (Automated Reasoning),
       Amazon Web Services}{Summer $2023$} {}{}
-  \item Developed an LLM-based universal transpiler into Rust with
-    formal guarantees of correct translation by equivalence-checking
-    the candidate translation against a Web Assembly trusted oracle.
+  \item Developed an LLM-based universal transpiler into Rust that
+    guarantees correct translation by equivalence-checking the
+    candidate translation against a Web Assembly-based trusted oracle.
   \end{rSubsection}
 
   \begin{rSubsection}{Applied Scientist Intern (Automated Reasoning),
       Amazon Web Services}{Summer $2022$} {}{}
   \item Developed PropProof, a library that automatically converts
     Property-Based Testing harnesses into model-checking by replacing
-    random values with symbolic ones. \textit{(ESEC/FSE'23 Industry Track)}
+    random values with optimized symbolic models. \textit{(ESEC/FSE'23 Industry Track)}
   \end{rSubsection}
 \end{rSection}
 
 
 \begin{rSection}{Awards and Fellowships}
 
-  \begin{rSubsection}{Amazon Research Award 2022 CFP: Enabling One-Line Rust
+  \begin{rSubsection}{Amazon Research Award 2022: Enabling One-Line Rust
       Verification with Program Synthesis}{}{}{}
   \item Written with advisors Limin Jia and Corina P\u{a}s\u{a}reanu.
   \end{rSubsection}
@@ -166,3 +167,8 @@
   \end{rSubsection}
 \end{rSection}
 \end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
