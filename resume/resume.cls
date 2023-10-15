@@ -123,6 +123,17 @@
   \vspace{0.5em} % Some space after the list of bullet points
 }
 
+\newenvironment{rPubsection}[3]{ % 2 input arguments - paper title, venue, authors
+ {\bf #1} \hfill %{\bf #2}
+ \ifthenelse{\equal{#3}{}}{}{
+  \\
+  {\em #3} \hfill {\em #2}
+}
+
+\vspace{-0.5em}
+}
+
+
 % The below commands define the whitespace after certain things in the document - they can be \smallskip, \medskip or \bigskip
 \def\namesize{\huge} % Size of the name at the top of the document
 \def\addressskip{\smallskip} % The space between the two address (or phone/email) lines

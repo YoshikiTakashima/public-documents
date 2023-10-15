@@ -19,6 +19,7 @@
     "nameskip"
     "sectionskip")
    (LaTeX-add-environments
+    '("rPubsection" 3)
     '("rSubsection" 4)
     '("rSection" 1)))
  :latex)
