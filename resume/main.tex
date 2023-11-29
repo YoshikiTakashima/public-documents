@@ -21,10 +21,10 @@
 \maketitle
 
 \begin{rSection}{Research Interest}
-  I am interested in helping developers build more robust software by
+  I want to helping developers build more robust software by
   leveraging automated, language-aware solutions for software testing and
   verification. My recent works focus on testing and verifying Rust
-  programs.
+  programs by leveraging Large-Language Models and Program Synthesis.
 \end{rSection}
 
 \begin{rSection}{Education}
@@ -56,7 +56,38 @@
   % \end{rSubsection}
 \end{rSection}
 
+\begin{rSection}{Employment}
+
+  \begin{rSubsection}{Applied Scientist Intern (Automated Reasoning),
+      Amazon Web Services}{Summer $2023$} {}{}
+  \item Developed an LLM-based universal transpiler into Rust that
+    guarantees correct translation by equivalence-checking the
+    candidate translation against a Web Assembly-based trusted oracle.
+  \end{rSubsection}
+
+  \begin{rSubsection}{Applied Scientist Intern (Automated Reasoning),
+      Amazon Web Services}{Summer $2022$} {}{}
+  \item Developed PropProof, a library that automatically converts
+    Property-Based Tests into model-checking by replacing
+    random values with optimized symbolic models. Integrated it into
+    GitHub CI of AWS Open Source Project \texttt{PROST}.
+  \end{rSubsection}
+\end{rSection}
+
 \begin{rSection}{Publications}
+  \begin{rPubsection}{Crabtree: Rust API Test Synthesis Guided by
+      Coverage and Type}{Under Submission: PLDI'24}{\textbf{Yoshiki
+        Takashima}, Chanhee Cho, Ruben Martins, Limin Jia, Corina
+      S. P\u{a}s\u{a}reanu.}{}
+  \end{rPubsection}
+
+  \begin{rPubsection}{VERT: Verified Equivalent Rust Transpilation
+      with Large Language Models}{Under Submission: FSE'24}{Aidan Yang*,
+      \textbf{Yoshiki Takashima*}, Brandon Paulsen, Joey Dodds, Daniel
+      Kroening}{}
+
+    {\footnotesize *Equal Contribution}
+  \end{rPubsection}
 
   \begin{rPubsection}{Automatically Enforcing Rust Trait
       Properties}{VMCAI'24}{Twain Byrnes, \textbf{Yoshiki Takashima}, Limin
@@ -75,9 +106,9 @@
       Program Verification}{FMCAD'23}{Yi Zhou, Jay Bosamiya, \textbf{Yoshiki
       Takashima}, Jessica Li, Marijn Heule, Bryan Parno.}{}
 
-    {\footnotesize
-      \href{https://github.com/secure-foundations/mariposa}
-      {https://github.com/secure-foundations/mariposa}}
+    % {\footnotesize
+    %   \href{https://github.com/secure-foundations/mariposa}
+    %   {https://github.com/secure-foundations/mariposa}}
   \end{rPubsection}
 
   \begin{rPubsection}{SyRust: Automatic Testing of Rust Libraries with
@@ -102,24 +133,6 @@
   \end{rPubsection}
 \end{rSection}
 
-\begin{rSection}{Employment}
-
-  \begin{rSubsection}{Applied Scientist Intern (Automated Reasoning),
-      Amazon Web Services}{Summer $2023$} {}{}
-  \item Developed an LLM-based universal transpiler into Rust that
-    guarantees correct translation by equivalence-checking the
-    candidate translation against a Web Assembly-based trusted oracle.
-  \end{rSubsection}
-
-  \begin{rSubsection}{Applied Scientist Intern (Automated Reasoning),
-      Amazon Web Services}{Summer $2022$} {}{}
-  \item Developed PropProof, a library that automatically converts
-    Property-Based Testing harnesses into model-checking by replacing
-    random values with optimized symbolic models. \textit{(ESEC/FSE'23 Industry Track)}
-  \end{rSubsection}
-\end{rSection}
-
-
 \begin{rSection}{Awards and Fellowships}
 
   \begin{rSubsection}{Amazon Research Award 2022: Enabling One-Line Rust
@@ -133,7 +146,6 @@
     Engineering Department.
   \end{rSubsection}
 \end{rSection}
-
 
 \begin{rSection}{Teaching and Service}
   \begin{rSubsection}{Teaching Assistant for CMU 18-636 (Web
