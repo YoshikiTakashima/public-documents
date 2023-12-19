@@ -13,10 +13,10 @@
   Carnegie Mellon University. My co-advisers are Prof. [[http://www.andrew.cmu.edu/user/liminjia/][Limin Jia]] and
   Prof. [[https://ti.arc.nasa.gov/profile/pcorina/][Corina Pasareanu]].
 
-  My research aims to help developers build more robust software by
+  My research helps developers build more robust software by
   leveraging automated, language-aware solutions for testing and
-  verification. Current work includes automatic testing of libraries
-  written in Rust.
+  verification. Current work includes automatic testing and
+  verification of libraries written in Rust
 
   /Contacts:/
   - Email: ytakashi@andrew.cmu.edu
@@ -27,7 +27,7 @@
 * Education
   - *PhD Student in Electrical and Computer Engineering* ~ Carnegie
     Mellon University: (2019 onwards)
-    - Co-Advised by: Prof. [[http://www.andrew.cmu.edu/user/liminjia/][Limin Jia]] and Prof. [[https://ti.arc.nasa.gov/profile/pcorina/][Corina Pasareanu]].
+    - Co-Advised by: Prof. [[http://www.andrew.cmu.edu/user/liminjia/][Limin Jia]] and Prof. [[https://www.andrew.cmu.edu/user/pcorina/][Corina Pasareanu]].
 
   - *BS Mathematics - Computer Science* ~ UC San Diego (2017 - 2019)
     - GPA: 3.95/4.00
@@ -38,46 +38,45 @@
     - GPA: 3.85/4.00
 
 * Publications
+  - *Automatically Enforcing Rust Trait Properties*. Twain Byrnes,
+    Yoshiki Takashima, Limin Jia. International Conference on
+    Verification, Model Checking, and Abstract Interpretation (/VMCAI
+    2024/).
+  - *PropProof: Free Model-Checking Harnesses from PBT*. Yoshiki
+    Takashima. ACM Joint European Software Engineering Conference and
+    Symposium on the Foundations of Software Engineering
+    (/ESEC/FSE 2023/) [[https://doi.org/10.1145/3611643.3613863][https://doi.org/10.1145/3611643.3613863]]
+  - *Mariposa: Measuring SMT Instability in Automated Program
+    Verification*. Yi Zhou, Jay Bosamiya, Yoshiki Takashima, Jessica
+    Li, Marijn Heule, Bryan Parno. Formal Methods in Computer-Aided
+    Design (/FMCAD 2023/). See [[https://kilthub.cmu.edu/articles/report/Mariposa_Measuring_SMT_Instability_in_Automated_Program_Verification_Technical_Report_/23905905][tech report]].
   - *SyRust: Automatic Testing of Rust Libraries with Semantic-Aware
     Program Synthesis.* Yoshiki Takashima, Ruben Martins, Limin Jia,
     and Corina S. Păsăreanu. In Proceedings of the 42nd ACM SIGPLAN
     International Conference on Programming Language Design and
-    Implementation /(PLDI’21)/.
-    - Paper, video, and artifact available here:
-      https://doi.org/10.1145/3453483.3454084
-    - Japanese Talk: Coming in September 2021
-
+    Implementation /(PLDI’21)/. https://doi.org/10.1145/3453483.3454084
   - *VeriSketch: Synthesizing Secure Hardware Designs with
     Timing-Sensitive Information Flow Properties.* Armaiti
     Ardeshiricham, Yoshiki Takashima (presenter), Sicun Gao, Ryan
     Kastner. In Proceedings of the 2019 ACM SIGSAC Conference on
     Computer and Communications Security /(CCS’19)/.
-    - Paper and video available here:
-      https://doi.org/10.1145/3319535.3354246
+    https://doi.org/10.1145/3319535.3354246
 
+* Fellowships and Funding
+  - /Prabhu and Poonam Goel Graduate Fellowship/: 2021 - 2022
+  - Amazon Research Award /Enabling One-Line Rust
+    Verification with Program Synthesis/: 2023 - 2024.
 * Teaching and Service
-** 2021
-*** Student Volunteer for ICSE 2022
+  - Student Volunteer for ICSE 2022
     - /Student Volunteer Chairs/: Michael Hinton and Laura Moreno
-    - /Conference Chair/: Christian Kästner
-    - Staffed workshops and front desk.
-
-** 2021
-*** Teaching Assistant for "Software Security" (18732)
+  - Teaching Assistant for "Software Security" (18732)
     - /Professor: Bryan Parno, Spring Semester 2021/
     - This graduate-level ECE course teaches students strategies for
       developing secure software, ranging from static analysis to
       formal verification using Dafny.
     - Maintained infrastructure, conducted office hours and
       recitations.
-** 2020
-*** Artifact Evaluation for VMCAI 2021
-    - /Artifact Evaluation Chairs: Troels Henriksen and Klaus
-      Gleissenthall, October 2020/
-    - Evaluated 4 artifacts for the VMCAI (Verification, Model
-      Checking, and Abstract Interpretation) 2021.
-* Fellowships and Funding
-  - /Prabhu and Poonam Goel Graduate Fellowship/: 2021 - 2022
+  - Artifact Evaluation for VMCAI 2021
 * Credits and License
   This webpage was based off of Jesse Kelly's Imagine Template,
   licensed under GPL v3.
