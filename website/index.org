@@ -9,24 +9,20 @@
 [[./img/profile.jpeg]]
 
 * Hi!
-  I am a PhD Student in Electrical and Computer Engineering (ECE) at
-  Carnegie Mellon University. My co-advisers are Prof. [[http://www.andrew.cmu.edu/user/liminjia/][Limin Jia]] and
-  Prof. [[https://ti.arc.nasa.gov/profile/pcorina/][Corina Pasareanu]].
-
-  My research helps developers build more robust software by
-  leveraging automated, language-aware solutions for testing and
-  verification. Current work includes automatic testing and
-  verification of libraries written in Rust
+  I am a Post-Doctoral Associate at Yale Law School building AI
+  systems that reason about the law.
 
   /Contacts:/
-  - Email: ytakashi@andrew.cmu.edu
-  - Office: 4720 Forbes Ave, Room CIC-2119C. Pittsburgh PA 15213
-  - [[https://users.ece.cmu.edu/~ytakashi/resume/yoshiki-takashima-resume-summer-2021.pdf][Full Resume]]
+  - Email: yoshiki.takashima@yale.edu
+  - Office: 127 Wall St. 400G, New Haven, CT 06511.
   - You can also find me on: [[https://github.com/YoshikiTakashima][Github]] and [[https://www.linkedin.com/in/yoshiki-takashima-480726146][LinkedIn]].
 
-* Education
-  - *PhD Student in Electrical and Computer Engineering* ~ Carnegie
-    Mellon University: (2019 onwards)
+* Current and Past Positions
+  - *Post-Doctoral Associate* ~ Yale Law School (May 2024 -)
+    - Advised by Prof. [[https://law.yale.edu/scott-j-shapiro][Scott J. Shapiro]].
+
+  - *PhD in Electrical and Computer Engineering* ~ Carnegie
+    Mellon University: (August 2019 - March 2024)
     - Co-Advised by: Prof. [[http://www.andrew.cmu.edu/user/liminjia/][Limin Jia]] and Prof. [[https://www.andrew.cmu.edu/user/pcorina/][Corina Pasareanu]].
 
   - *BS Mathematics - Computer Science* ~ UC San Diego (2017 - 2019)
@@ -38,10 +34,33 @@
     - GPA: 3.85/4.00
 
 * Publications
+"+" denotes equal contribution.
+  - *Scheherazade: Evaluating Chain-of-Thought Math Reasoning in LLMs
+    with Chain-of-Problems*. Stephen Miner+, Yoshiki Takashima+, Simeng
+    Han, Sam Kouteili, Ferhat Erata, Ruzica Piskac, Scott
+    J. Shapiro. NeurIPS 2025 Math-AI
+    Workshop. https://arxiv.org/abs/2410.00151
+  - *VERT: Verified Equivalent Rust Transpilation with Large Language
+    Models as Few-Shot Learners*. Aidan Z. H. Yang+, Yoshiki
+    Takashima+, Brandon Paulsen, Josiah Dodds, Daniel
+    Kroening. IEEE/ACM International Conference on Automated Software
+    Engineering (ASE 2025) https://arxiv.org/abs/2404.18852v2
+  - *CourtReasoner: Can LLM Agents Reason Like Judges?* Sophia Simeng
+    Han, Yoshiki Takashima, Shannon Zejiang Shen, Chen Liu, Yixin Liu,
+    Roque K. Thuo, Sonia Knowlton, Ruzica Piskac, Scott J Shapiro,
+    Arman Cohan. Proceedings of the 2025 Conference on Empirical
+    Methods in Natural Language Processing (EMNLP 2025)
+    [[https://doi.org/10.18653/v1/2025.emnlp-main.1787]]
+  - *Crabtree: Rust API Test Synthesis Guided by Coverage and
+    Type*. Yoshiki Takashima, Chanhee Cho, Ruben Martins, Limin Jia,
+    Corina Pasareanu. Object Oriented Programming Language
+    (OOPSLA'2024) https://doi.org/10.1145/3689733
+  - *Testing and Verifying Rust's Next Mile*. Yoshiki
+    Takashima. Ph.D. Thesis. March 2024. https://doi.org/10.1184/R1/25451383.v1
   - *Automatically Enforcing Rust Trait Properties*. Twain Byrnes,
     Yoshiki Takashima, Limin Jia. International Conference on
     Verification, Model Checking, and Abstract Interpretation (/VMCAI
-    2024/).
+    2024/). https://doi.org/10.1007/978-3-031-50521-8_10
   - *PropProof: Free Model-Checking Harnesses from PBT*. Yoshiki
     Takashima. ACM Joint European Software Engineering Conference and
     Symposium on the Foundations of Software Engineering
